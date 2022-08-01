@@ -8,5 +8,5 @@ document.write("1- Si el tanque es de " + litros + " litros y se hace un recorri
 " kl. <br> El consumo de gasolina es de " + resultado + " kilometros por litro.")
 
 kl = 300
-
-document.write("<br><br>2- El consumo por el recorrido es de " + resultado + "litros <br> de alcohol por los" + kl + "recorridos")
+resultado = kl/litros;
+document.write("<br><br>2- El consumo por el recorrido es de " + resultado + " litros <br> de alcohol por los " + kl + " recorridos")
