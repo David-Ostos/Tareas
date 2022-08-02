@@ -11,7 +11,7 @@ function imprimir(msj) {
     salto()
 }
 
-document.write("<h3>Cual es la diferencia de edad entre mi papa y yo?</h3>")
+document.write("<h3>Cual es la diferencia de edad entre mi papá y yo?</h3>")
 
 imprimir("Si mi papá nacio en el año 53 y yo en el 95")
 
