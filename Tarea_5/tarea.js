@@ -1,12 +1,23 @@
-function salta() {
 
-    document.write("<br><br><hr><br>")
-}
+    var inicioDeSesionRegistrado = "alura";
+    var contrasenhaRegistrada = "alura321";
 
-//funcion para escribir y saltar las lineas mas simplificado.
-function imprimir(frase) {
+    for (var contador = 1; contador <= 3; contador++){
 
-    document.write("<big>" + frase + "</big>");
-        salta();
+        var inicioDeSesionIngresado = prompt("Ingrese su usuario");
+        var contrasenhaIngresada = prompt("Ingrese su contraseña");
 
+         if( inicioDeSesionRegistrado == inicioDeSesionIngresado && contrasenhaRegistrada == contrasenhaIngresada ) {
+            
+            alert("Bienvenido al sistema " + inicioDeSesionIngresado);
+            break;
+
+        } else {
+            if(contador ==3){
+                alert("Agotaste el numero de intentos!!")
+            } else{
+
+                alert("inicio de sesión inválido. Favor intente de nuevo");
+            }
+        }
     }
