@@ -10,3 +10,13 @@ function imprimir(frase) {
         salta();
 
     }
+var numeroB = 0
+
+while (numeroB <= 100) {
+
+    imprimir(numeroB)
+    numeroB = numeroB + 2;  
+    
+}
+
+imprimir("FIN");
